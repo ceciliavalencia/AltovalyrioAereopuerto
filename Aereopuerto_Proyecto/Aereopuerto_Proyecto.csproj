@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BB592FDF-D8BB-4581-A420-30CCBE6FF6BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Aereopuerto_Proyecto</RootNamespace>
+    <AssemblyName>Aereopuerto_Proyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acerca de XYZ AIRPORT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acerca de XYZ AIRPORT.Designer.cs">
+      <DependentUpon>Acerca de XYZ AIRPORT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Acerca_De.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acerca_De.Designer.cs">
+      <DependentUpon>Acerca_De.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calificar Experiencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calificar Experiencia.Designer.cs">
+      <DependentUpon>Calificar Experiencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="class\CaracteristicasExtraAvion.cs" />
+    <Compile Include="class\Datos_Piloto.cs" />
+    <Compile Include="class\Instalacion_aereopuerto.cs" />
+    <Compile Include="class\Nombre_Aerolinea_Avion.cs" />
+    <Compile Include="class\Propiertario.cs" />
+    <Compile Include="Contacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contacto.Designer.cs">
+      <DependentUpon>Contacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Programar Vuelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programar Vuelo.Designer.cs">
+      <DependentUpon>Programar Vuelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="class\Reserva_Vuelo.cs" />
+    <Compile Include="XYZ AIRPORT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XYZ AIRPORT.Designer.cs">
+      <DependentUpon>XYZ AIRPORT.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acerca de XYZ AIRPORT.resx">
+      <DependentUpon>Acerca de XYZ AIRPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Acerca_De.resx">
+      <DependentUpon>Acerca_De.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calificar Experiencia.resx">
+      <DependentUpon>Calificar Experiencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contacto.resx">
+      <DependentUpon>Contacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Programar Vuelo.resx">
+      <DependentUpon>Programar Vuelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="XYZ AIRPORT.resx">
+      <DependentUpon>XYZ AIRPORT.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

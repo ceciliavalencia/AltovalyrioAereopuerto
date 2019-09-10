@@ -1,0 +1,16 @@
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\bin\Debug\Aereopuerto_Proyecto.exe.config
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\bin\Debug\Aereopuerto_Proyecto.exe
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\bin\Debug\Aereopuerto_Proyecto.pdb
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.csprojAssemblyReference.cache
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.Form1.resources
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.Properties.Resources.resources
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.csproj.GenerateResource.cache
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.csproj.CoreCompileInputs.cache
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.exe
+c:\users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.pdb
+C:\Users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.Programar_Vuelo.resources
+C:\Users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.Contacto.resources
+C:\Users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.Calificar_Experiencia.resources
+C:\Users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.Acerca_de_XYZ_AIRPORT.resources
+C:\Users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.Acerca_De.resources
+C:\Users\ceciv\source\repos\Aereopuerto_Proyecto\Aereopuerto_Proyecto\obj\Debug\Aereopuerto_Proyecto.XYZ_AIRPORT.resources
